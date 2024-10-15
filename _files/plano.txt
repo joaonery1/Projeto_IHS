@@ -1,0 +1,5 @@
+Imagem de entrada: Lena
+
+Filtros que serão aplicados:
+
+1. 
