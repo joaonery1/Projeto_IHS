@@ -45,7 +45,7 @@ def reconstruct(im):
 
 msg = ""
 media = 0.0
-nSteps = 10
+nSteps = 100
 total = 0.0
 TEST1 = False
 TEST2 = False
@@ -64,7 +64,7 @@ if __name__ == "__main__":
         kernel_51x51 = np.ones((kernel_size, kernel_size), np.uint8)
 
         imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-        my.imshow(imgray)
+        #my.imshow(imgray)
         
         # Salvando a imagem em escala de cinza
         #cv2.imwrite('out_cv/output_gray.jpg', imgray)
